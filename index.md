@@ -154,6 +154,14 @@ Hi! My name is Rishab Shyamal
         <div style="background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Homeworks Gallery
         </div>
+    </a> <a href="{{site.baseurl}}/localStorage" style="text-decoration: none;">
+        <div style="background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Local Storage Lesson
+        </div>
+    </a> <a href="{{site.baseurl}}/collision_mechanics" style="text-decoration: none;">
+        <div style="background-color: #6A5ACD; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Collision Mechanics Lesson
+        </div>
     </a>
 </div>
 
