@@ -45,5 +45,5 @@ Documentation is about explaining your code, process, and learning journey. It h
 <div style="margin-bottom: 18px;">
 <em>Below is a Gamerunner widget showing how documentation and comments are used in Pong. Try changing the code to see how comments help explain code!</em>
 </div>
-{% include runners/game.html runner_id="pong-docs-demo" challenge="Show documentation in Pong" code="// This class handles paddle movement\nclass Paddle { ... }" %}
+{% include runners/game.html runner_id="pong-docs-demo" challenge="Show documentation in Pong" code="// This class handles paddle movement\nclass Paddle {\n  constructor(x, y) {\n    this.x = x;\n    this.y = y;\n  }\n  move(dy) {\n    // Move the paddle by dy pixels\n    this.y += dy;\n  }\n}\nconst canvas = document.getElementById('gameCanvas');\nconst ctx = canvas.getContext('2d');\nconst paddle = new Paddle(30, 50);\npaddle.move(20);\nctx.fillStyle = '#222';\nctx.fillRect(paddle.x, paddle.y, 10, 60);" %}
 

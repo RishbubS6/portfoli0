@@ -106,5 +106,5 @@ class Paddle {
 <div style="margin-bottom: 18px;">
 <em>Below is a Gamerunner widget showing how OOP is used in Pong. Try changing the code to see how classes and objects work in practice!</em>
 </div>
-{% include runners/game.html runner_id="pong-oop-demo" challenge="Show OOP in Pong" code="class Paddle { /* ... */ }" %}
+{% include runners/game.html runner_id="pong-oop-demo" challenge="Show OOP in Pong" code="// Simple Paddle class example\nclass Paddle {\n  constructor(x, y) {\n    this.x = x;\n    this.y = y;\n    this.width = 10;\n    this.height = 60;\n  }\n  draw(ctx) {\n    ctx.fillStyle = '#327FC7';\n    ctx.fillRect(this.x, this.y, this.width, this.height);\n  }\n}\n\n// Create and draw a paddle\nconst canvas = document.getElementById('gameCanvas');\nconst ctx = canvas.getContext('2d');\nconst paddle = new Paddle(30, 50);\npaddle.draw(ctx);" %}
 

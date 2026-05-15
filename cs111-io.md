@@ -70,5 +70,5 @@ I/O covers how your program interacts with users and other systems, including ke
 <div style="margin-bottom: 18px;">
 <em>Below is a Gamerunner widget showing how input/output is used in Pong. Try changing the code to see how keyboard and canvas interactions work!</em>
 </div>
-{% include runners/game.html runner_id="pong-io-demo" challenge="Show I/O in Pong" code="document.addEventListener('keydown', (e) => {/* ... */});" %}
+{% include runners/game.html runner_id="pong-io-demo" challenge="Show I/O in Pong" code="// Example: keyboard and canvas\nconst canvas = document.getElementById('gameCanvas');\nconst ctx = canvas.getContext('2d');\nlet y = 50;\ndocument.addEventListener('keydown', e => {\n  if (e.key === 'ArrowDown') y += 10;\n  if (e.key === 'ArrowUp') y -= 10;\n  ctx.clearRect(0,0,canvas.width,canvas.height);\n  ctx.fillStyle = '#FF8C00';\n  ctx.fillRect(30, y, 40, 40);\n});\nctx.fillStyle = '#FF8C00';\nctx.fillRect(30, y, 40, 40);" %}
 
