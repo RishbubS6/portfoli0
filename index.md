@@ -125,6 +125,20 @@ Hi! My name is Rishab Shyamal
         </div>
 
 
+### CS111 Requirements
+
+> Here is my progress through the CS 111 requirements of Mira Costa College
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/cs111-showcase" style="text-decoration: none;">
+        <div style="background-color: #327FC7; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            CS111 Showcase Hub
+        </div>
+    </a>
+</div>
+
+<br>
+
 ### Class Progress
 
 > Here is my progress through coding, click to see these online - Some are games, some are blog posts, some are classworks/homeworks
