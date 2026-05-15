@@ -59,5 +59,14 @@ Control structures let you control the flow of your program using loops, conditi
 <div style="margin-bottom: 18px;">
 <em>Below is a Gamerunner widget showing how control structures are used in Pong. Try changing the code to see how loops and conditionals affect the game!</em>
 </div>
+
+
+
+
+
+
+
+
+
 {% include runners/game.html runner_id="pong-control-demo" challenge="Show control structures in Pong" code="// Example: loop and conditional\nlet score = 0;\nfor (let i = 0; i < 5; i++) {\n  score += 2;\n}\nif (score >= 10) {\n  document.getElementById('gameCanvas').style.background = '#1E90FF';\n}" %}
 
