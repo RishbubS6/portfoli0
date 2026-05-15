@@ -114,6 +114,16 @@ Hi! My name is Rishab Shyamal
     })();
 </script>
 
+### CS111 Requirements showcase
+
+> Here are my requirements for the Mira Cost CS111 course, sorted by category, which coderunners/gamerunners to show working code and relevant links attached.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/cs111-showcase" style="text-decoration: none;">
+        <div style="background-color: #327FC7; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            CS111 Showcase Hub
+        </div>
+
 
 ### Class Progress
 
