@@ -74,15 +74,3 @@ Data types are the building blocks of all programs. You use numbers, strings, bo
 	<li>Homeworks: <a href="{{site.baseurl}}/js/json">JSON Homework</a></li>
 </ul>
 </div>
-
----
-
-
----
-
-<h3>Coderunner/Gamerunner Example</h3>
-<div style="margin-bottom: 18px;">
-<em>Below is a Gamerunner widget showing how data types are used in Pong. Try changing the code to see how numbers, strings, and arrays work in practice!</em>
-</div>
-{% include runners/game.html runner_id="pong-datatypes-demo" challenge="Show data types in Pong" code="// Example: numbers, strings, arrays\nlet scores = [3, 5, 7];\nlet total = 0;\nfor (let s of scores) total += s;\nlet msg = 'Total score: ' + total;\ndocument.getElementById('gameCanvas').style.background = '#6A5ACD';\nctx = document.getElementById('gameCanvas').getContext('2d');\nctx.fillStyle = '#fff';\nctx.font = '20px Arial';\nctx.fillText(msg, 30, 50);" %}
-

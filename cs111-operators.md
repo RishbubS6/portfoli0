@@ -49,14 +49,4 @@ Operators let you perform calculations and logic in your code. This includes mat
 </ul>
 </div>
 
----
-
-
----
-
-<h3>Coderunner/Gamerunner Example</h3>
-<div style="margin-bottom: 18px;">
-<em>Below is a Gamerunner widget showing how operators are used in Pong. Try changing the code to see how different operators affect the game!</em>
-</div>
-{% include runners/game.html runner_id="pong-operators-demo" challenge="Show operators in Pong" code="// Example: using operators\nlet a = 5, b = 3;\nlet sum = a + b;\nlet isBig = sum > 6 && sum < 10;\nlet msg = 'Sum: ' + sum + ' | isBig: ' + isBig;\nctx = document.getElementById('gameCanvas').getContext('2d');\nctx.fillStyle = '#FFD700';\nctx.font = '20px Arial';\nctx.fillText(msg, 30, 50);" %}
 
