@@ -120,6 +120,11 @@ Hi! My name is Rishab Shyamal
 > Here is my progress through coding, click to see these online - Some are games, some are blog posts, some are classworks/homeworks
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/cs111-showcase" style="text-decoration: none;">
+        <div style="background-color: #327FC7; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            CS111 Showcase Hub
+        </div>
+    </a>
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #0048ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
